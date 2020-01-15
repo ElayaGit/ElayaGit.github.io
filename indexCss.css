@@ -1,0 +1,63 @@
+*{
+	font-family: 'Ibarra Real Nova', serif;
+}
+h1{
+	color: #000;
+	font-weight: 10%;
+	font-size: 3vw;
+	text-align: center;
+}
+#AboutMe{
+	display: inline-block;
+	box-shadow: 5px 5px 5px 5px;
+	border-style: #000;
+	padding: 2%;
+	padding-right: 17%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+#AboutSchool{
+	display: inline-block;
+	box-shadow: 5px 5px 5px 5px;
+	border-style: #000;
+	padding: 2%;
+	padding-right: 10%;
+	margin-top: 2%;
+	margin-left: 58%;
+	margin-bottom: 2%;
+}
+#Hobby{
+	display: inline-block;
+	box-shadow: 5px 5px 5px 5px;
+	border-style: #000;
+	padding: 2%;
+	padding-right: 31%;
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+a:link, a:visited {
+  background-color: #5DBEE8;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  background: 5DBEE8;
+  -webkit-transition: padding 2s;
+  transition: padding 1s;
+}
+
+a:hover, a:active {
+  background-color: #5DBEE8;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+p{
+	text-align: left;
+	color: #000;
+}
