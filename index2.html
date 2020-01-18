@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transitions</title>
+        <meta name="description" content="Beispiele">
+		<link rel="stylesheet" type="text/css" href="indexCss.css">
+		<link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	<div id="nav">
+				<a class="al" href="index.html">All</a>
+				<a class="al" href="index2.html">Slideshow</a>
+			</div>
+			<div id="Photos">
+				<img id="imageOne" src="imageOne.jpg">
+				<img id="imageTwo" src="imageTwo.jpg"><!-- onclick -->
+				<img id="imageThree" src="imageThree.jpg">
+				<img id="imageFour" src="imageFour.jpg"><!-- onclick -->
+				<img id="imageFive" src="imageFive.jpg">
+		</div>
+
+        <div id="buttons">
+        <!-- entweder mit den buttons  oder bei dem 2. und 4. bild das onclick einfügen ..onclick führt beim drücken eine Frunktion aus rechts oder links kann man überall einfügen -->
+            <button id="button" onclick="slideleft()"><p><-</p></button>
+            <button id="button1" onclick="slideright()"><p>-></p></button>
+			
+	<script>
+			
+		function slideright() {
+            var x = document.images[0].src;
+			
+            for (var i = 0; i < document.images.length - 1; i++) {
+                document.images[i].src = document.images[i + 1].src;
+            }
+            document.images[4].src = x;
+
+        }
+
+        function slideleft() {
+            var y = document.images[4].src;
+			
+
+            for (var i = document.images.length - 1; i > 0; i--) {
+                document.images[i].src = document.images[i - 1].src;
+            }
+
+            document.images[0].src = y;
+
+        }
+		</script>
+		
+		</body>
+	</html>

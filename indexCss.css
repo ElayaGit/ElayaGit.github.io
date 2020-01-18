@@ -14,6 +14,19 @@ h2{
 	color: #000;
 	text-align: left;
 }
+#nav{
+	background-color: #fff;
+	color: #000;
+	margin-bottom: 5%;
+	padding: 2%;
+	font-size: 20px;
+	
+}
+.al:link{
+	color: #000;
+	margin-left: 2%;
+	text-decoration:  none;
+}
 #AboutMe{
 	
 	display: inline-block;
@@ -55,7 +68,7 @@ h2{
 	color: #fff;
 }
 
-a:link, a:visited {
+#link:link, #link:visited {
   background-color: #5DBEE8;
   color: #fff;
   padding: 14px 25px;
@@ -69,7 +82,7 @@ a:link, a:visited {
   transition: padding 1s;
 }
 
-a:hover, a:active {
+#link:hover, #link:active {
   background-color: #5DBEE8;
   padding-right: 50px;
   padding-left: 50px;
