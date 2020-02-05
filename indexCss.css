@@ -2,7 +2,11 @@
 	font-family: 'Ibarra Real Nova', serif;
 }
 body{
-	background-image: url("ba.jpg");
+	background-image: url("ba3.jpg");
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
 }
 h1{
 	color: #fff;
@@ -22,7 +26,6 @@ li:last-child {
   border-right: none;
 }
 #AboutMe{
-	
 	display: inline-block;
 	box-shadow: 5px 5px 5px 5px;
 	border-style: #fff;
@@ -46,8 +49,10 @@ li:last-child {
 	margin-top: 2%;
 	margin-left: 50%;
 	margin-bottom: 2%;
-	background-color: #fff;
+	/*background-color: rgba(100% 100% 100% 0.8%);*/
+	opacity: 5000%;
 	color: #fff;
+
 }
 #Hobby{
 	display: inline-block;
